@@ -6,8 +6,8 @@ mesa
 cadeira
 telefone
 celular
-régua
-lápis
+regua
+lapis
 papel
 quadrado
-círculo
+circulo

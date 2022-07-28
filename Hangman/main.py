@@ -1,16 +1,13 @@
 from jogar import jogar
 from add_palavra import add_palavra
+from menu import menu
 
 
 def main():
-    print("Olá! O que deseja fazer? Digite a opção desejada:")
-    print("1 - Jogar\n2 - Adicionar palavra\n3 - Sair")
-    option = input()
+    option = menu(1)
 
     while((option != '1') and (option != '2') and (option != '3')):
-        print("Digite uma opção válida!")
-        print("1 - Jogar\n2 - Adicionar palavra\n3 - Sair")
-        option = input()
+        option = menu(1)
 
     if option == '1':
         jogar()
@@ -18,4 +15,5 @@ def main():
         add_palavra()
 
 
-main()
+if __name__ == "__main__":
+    main()
