@@ -6,7 +6,7 @@ def tabuleiro(tentativas, palavra, palavra_oculta, letras_erradas=[], ultima_let
     if(palavra_oculta == palavra):  # palavra oculta já está descoberta
         print("\t\tA palavra era")
         print(bonecos[tentativas])
-        print("\t\t", palavra_oculta.upper(), "/fim")
+        print("\t\t", palavra_oculta.upper())
     if(tentativas == -1):  # tabuleiro inicial
         print("\t\tBem-vindo!")
         print(bonecos[0])

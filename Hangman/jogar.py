@@ -30,7 +30,7 @@ def jogar():
             else:
                 palavra_oculta = revela_letra(
                     palavra, palavra_oculta, ultima_letra)
-            if palavra_tentada == palavra:
+            if palavra_oculta == palavra:
                 tabuleiro(tentativas, palavra, palavra_oculta,
                           letras_erradas, ultima_letra)
                 break
