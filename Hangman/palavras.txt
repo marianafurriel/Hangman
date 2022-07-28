@@ -1,0 +1,13 @@
+cachorro
+gato
+papagaio
+computador
+mesa
+cadeira
+telefone
+celular
+régua
+lápis
+papel
+quadrado
+círculo
