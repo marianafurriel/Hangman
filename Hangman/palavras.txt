@@ -13,3 +13,5 @@ quadrado
 circulo
 melancia
 bicicleta
+casa
+
