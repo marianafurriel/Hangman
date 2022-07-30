@@ -11,3 +11,5 @@ lapis
 papel
 quadrado
 circulo
+melancia
+bicicleta

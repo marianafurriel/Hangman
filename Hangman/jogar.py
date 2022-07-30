@@ -39,6 +39,7 @@ def jogar():
             print('Digite a palavra que quer chutar: ')
             palavra_tentada = input()
             if palavra_tentada == palavra:
+                palavra_oculta = palavra
                 tabuleiro(tentativas, palavra, palavra_oculta,
                           letras_erradas, ultima_letra)
                 break
