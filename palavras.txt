@@ -13,5 +13,4 @@ quadrado
 circulo
 melancia
 bicicleta
-casa
-
+ventilador

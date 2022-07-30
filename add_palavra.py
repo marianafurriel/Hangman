@@ -10,6 +10,7 @@ def add_palavra():
     while(option != 'n'):
         if palavra not in ler_arquivo():
             escrever_arquivo(palavra)
+            option = 'n'
         else:
             print("Essa palavra já foi adicionada, deseja tentar novamente?(s/n)")
             option = input()
